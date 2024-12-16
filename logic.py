@@ -28,7 +28,7 @@ class Pokemon:
         # A method that returns information about the pokémon
         if not self.name:
             self.name = await self.get_name()  # Retrieving a name if it has not yet been uploaded
-        return f"Имя твоего покемона: {self.name}"  # Returning the string with the Pokémon's name
+        return f"The name of your Pokémon: {self.name}"  # Returning the string with the Pokémon's name
 
     async def show_img(self):
         # An asynchronous method to retrieve the URL of a pokémon image via PokeAPI
